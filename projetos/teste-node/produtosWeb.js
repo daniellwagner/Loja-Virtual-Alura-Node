@@ -5,7 +5,7 @@ var server = http.createServer(
         if(request.url == "/produtos") {
             response.end("<html><body><h1>Listando os produtos</h1></body></html>")
         } else {
-            response.end("<html><body>Home da casa do codigo</body></html>")
+            response.end("<html><body>Home da casa do codigo </body></html>")
         }
 
     }
